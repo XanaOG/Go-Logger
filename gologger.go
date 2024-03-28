@@ -5,10 +5,10 @@ import (
 )
 
 var LevelMap = map[string]string{
-	"SUCCESS": "\033[1;92m",
-	"ERROR":   "\033[1;91m",
-	"WARNING": "\033[1;93m",
-	"INFO":    "\033[1;94m",
+	"SUCCESS": "\033[0;92m",
+	"ERROR":   "\033[0;91m",
+	"WARNING": "\033[0;93m",
+	"INFO":    "\033[0;94m",
 }
 
 func AddColor(Name, ColorCode string) {
